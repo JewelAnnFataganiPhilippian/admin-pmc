@@ -1,0 +1,38 @@
+
+.test{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 264px;
+    background-color: #860909;
+    z-index: -1;
+}
+
+.head{
+    /* height: 264px; */
+    background-color: #860909;
+}
+.svg-icon {
+    fill: #898989;
+}
+
+.hover-bg{
+    border-radius: 5px;
+}
+
+.hover-bg:hover{
+    background-color: #860909;
+}
+
+.group:hover > .icon{
+    color: white;
+}
+
+.group:hover > .svg-icon{
+    fill: white;
+}
+
+nav a .icon{
+    color: #8a8a8a;
+}
